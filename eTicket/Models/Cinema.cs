@@ -13,5 +13,9 @@ namespace eTicket.Models
         public String Logo { get; set; }
         public String Name { get; set; }
         public String Description { get; set; }
+
+        //Relationship
+        public List<Movie> Movies { get; set; }
+        
     }
 }
